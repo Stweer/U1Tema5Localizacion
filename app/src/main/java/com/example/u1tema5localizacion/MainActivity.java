@@ -103,4 +103,9 @@ import com.google.android.gms.maps.model.LatLng;
     public void mifusedlocation(View view) {
       startActivity(new Intent(this, MiFusedLocation.class));
     }
-}
+
+    public void mifusedlocationClient(View view) {
+      startActivity(new Intent(this, MiFusedLocationClient.class));
+
+    }
+  }
